@@ -45,3 +45,9 @@ To keep PRs small and easier to test, they should ideally be 1:1 with commits fr
 ## Merging
 
 Pull Requests should be merged/rebased, not squashed, so we can maintain a commit history that is close to QMK Firmware's, for ease of reference.
+
+## How to use
+
+1. Edit keymaps and colors in keyboards/moonlander/keymaps/virako/keymap.c
+2. qmk compile
+3. qmk flash  # you need hit Reset button
